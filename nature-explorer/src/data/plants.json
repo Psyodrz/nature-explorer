@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Neem",
+    "scientificName": "Azadirachta indica",
+    "type": "Medicinal",
+    "image": "/assets/Neem.jpg",
+    "shortDescription": "A tree with remarkable medicinal properties.",
+    "description": {
+      "english": "Neem is a fast-growing tree native to India, known for its medicinal properties. All parts of the tree are used in traditional Ayurvedic medicine for various ailments.",
+      "hindi": "नीम भारत का एक तेजी से बढ़ने वाला पेड़ है, जो अपने औषधीय गुणों के लिए जाना जाता है। आयुर्वेदिक चिकित्सा में विभिन्न बीमारियों के लिए पेड़ के सभी हिस्सों का उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Treating skin diseases",
+      "Natural insecticide",
+      "Dental care",
+      "Blood purification"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Tulsi",
+    "scientificName": "Ocimum tenuiflorum",
+    "type": "Medicinal",
+    "image": "/assets/tulsi.jpg",
+    "shortDescription": "Holy basil with numerous health benefits.",
+    "description": {
+      "english": "Tulsi or Holy Basil is a sacred plant in Hindu tradition. It's known for its healing properties and is used to treat various common ailments.",
+      "hindi": "तुलसी हिंदू परंपरा में एक पवित्र पौधा है। यह अपने चिकित्सकीय गुणों के लिए जाना जाता है और विभिन्न सामान्य बीमारियों के इलाज के लिए उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Immunity booster",
+      "Treating cough and cold",
+      "Reducing stress",
+      "Purifying air"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Banyan",
+    "scientificName": "Ficus benghalensis",
+    "type": "Tree",
+    "image": "/assets/banyan.jpg",
+    "shortDescription": "India's national tree with spiritual significance.",
+    "description": {
+      "english": "The Banyan tree is considered sacred in India and symbolizes eternal life. Its aerial roots grow downward and form secondary trunks around the main trunk.",
+      "hindi": "बरगद का पेड़ भारत में पवित्र माना जाता है और अनंत जीवन का प्रतीक है। इसकी हवाई जड़ें नीचे की ओर बढ़ती हैं और मुख्य तने के चारों ओर द्वितीयक तने बनाती हैं।"
+    },
+    "uses": [
+      "Traditional medicine",
+      "Provides shade",
+      "Improves air quality",
+      "Religious rituals"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Marigold",
+    "scientificName": "Tagetes erecta",
+    "type": "Flower",
+    "image": "/assets/marigold.jpg",
+    "shortDescription": "Bright yellow-orange flower used in celebrations.",
+    "description": {
+      "english": "Marigold is a bright yellow to orange flower native to Mexico but widely grown in India. It's extensively used in religious ceremonies and festivities.",
+      "hindi": "गेंदा मेक्सिको का एक चमकीला पीला से नारंगी फूल है, लेकिन भारत में भी इसकी व्यापक रूप से खेती की जाती है। इसका धार्मिक समारोहों और उत्सवों में व्यापक रूप से उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Religious ceremonies",
+      "Decorations during festivals",
+      "Medicinal properties",
+      "Natural dye"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mango",
+    "scientificName": "Mangifera indica",
+    "type": "Tree",
+    "image": "/assets/mango.jpg",
+    "shortDescription": "The national fruit of India, known for its sweetness.",
+    "description": {
+      "english": "Mango is known as the 'King of Fruits' in India. It's a juicy stone fruit belonging to the flowering plant family Anacardiaceae.",
+      "hindi": "आम भारत में 'फलों के राजा' के रूप में जाना जाता है। यह एनाकार्डिएसी नामक पुष्पीय पौधे परिवार से संबंधित एक रसदार पत्थर फल है।"
+    },
+    "uses": [
+      "Delicious fruit",
+      "Ayurvedic medicine",
+      "Wood for furniture",
+      "Cultural significance"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lotus",
+    "scientificName": "Nelumbo nucifera",
+    "type": "Flower",
+    "image": "/assets/lotus.jpg",
+    "shortDescription": "India's national flower with spiritual importance.",
+    "description": {
+      "english": "Lotus is the national flower of India. It symbolizes purity, beauty, majesty, and divinity. The flower grows in muddy waters but remains clean.",
+      "hindi": "कमल भारत का राष्ट्रीय फूल है। यह शुद्धता, सौंदर्य, प्रतिष्ठा और दिव्यता का प्रतीक है। यह फूल कीचड़ भरे पानी में उगता है लेकिन साफ रहता है।"
+    },
+    "uses": [
+      "Religious ceremonies",
+      "Decorative purposes",
+      "Seeds and rhizomes are edible",
+      "Medicinal use in Ayurveda"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Peepal",
+    "scientificName": "Ficus religiosa",
+    "type": "Tree",
+    "image": "/assets/peepal.jpg",
+    "shortDescription": "Sacred fig tree with religious significance.",
+    "description": {
+      "english": "The Peepal tree is considered sacred by Hindus and Buddhists. It's believed that Buddha attained enlightenment under this tree, also known as the Bodhi tree.",
+      "hindi": "पीपल का पेड़ हिंदुओं और बौद्धों द्वारा पवित्र माना जाता है। माना जाता है कि बुद्ध ने इसी पेड़ के नीचे ज्ञान प्राप्त किया था, जिसे बोधि वृक्ष के रूप में भी जाना जाता है।"
+    },
+    "uses": [
+      "Religious worship",
+      "Air purification",
+      "Shade and shelter",
+      "Ayurvedic medicine"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Aloe Vera",
+    "scientificName": "Aloe barbadensis miller",
+    "type": "Medicinal",
+    "image": "/assets/aloe.jpg",
+    "shortDescription": "Succulent plant with healing gel.",
+    "description": {
+      "english": "Aloe Vera is a succulent plant species with thick, fleshy leaves that contain a gel-like substance. It has been used for medicinal purposes for thousands of years.",
+      "hindi": "एलोवेरा एक रसदार पौधा प्रजाति है जिसके मोटे, मांसल पत्ते होते हैं जिनमें जेल जैसा पदार्थ होता है। इसका उपयोग हजारों वर्षों से औषधीय उद्देश्यों के लिए किया जाता रहा है।"
+    },
+    "uses": [
+      "Skin treatment",
+      "Burn relief",
+      "Digestive health",
+      "Hair care"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ashoka",
+    "scientificName": "Saraca asoca",
+    "type": "Tree",
+    "image": "/assets/Ashoka.jpg",
+    "shortDescription": "Evergreen tree with medicinal bark.",
+    "description": {
+      "english": "The Ashoka tree is an evergreen tree native to the Indian subcontinent. It's considered sacred in Hindu and Buddhist traditions and has significant medicinal value.",
+      "hindi": "अशोक पेड़ भारतीय उपमहाद्वीप का स्थानिक सदाबहार पेड़ है। इसे हिंदू और बौद्ध परंपराओं में पवित्र माना जाता है और इसका महत्वपूर्ण औषधीय मूल्य है।"
+    },
+    "uses": [
+      "Women's health",
+      "Anti-inflammatory properties",
+      "Religious significance",
+      "Ornamental tree"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Indian Jasmine",
+    "scientificName": "Jasminum sambac",
+    "type": "Flower",
+    "image": "/assets/jasmine.jpg",
+    "shortDescription": "Fragrant flower used in garlands and perfumes.",
+    "description": {
+      "english": "Indian Jasmine is a fragrant flower known for its sweet scent. It's widely used in religious ceremonies, perfumes, and hair decorations.",
+      "hindi": "चमेली एक सुगंधित फूल है जो अपनी मीठी खुशबू के लिए जाना जाता है। इसका धार्मिक समारोहों, इत्र और बालों की सजावट में व्यापक रूप से उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Making garlands",
+      "Essential oils",
+      "Hair decoration",
+      "Religious offerings"
+    ]
+  }
+] 

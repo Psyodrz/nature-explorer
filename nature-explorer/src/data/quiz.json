@@ -1,0 +1,607 @@
+[
+  {
+    "id": 1,
+    "question": "Which plant is known as the 'Queen of Herbs' in Ayurveda?",
+    "options": [
+      "Neem",
+      "Tulsi",
+      "Aloe Vera",
+      "Ashoka"
+    ],
+    "correctAnswer": "Tulsi"
+  },
+  {
+    "id": 2,
+    "question": "Which tree is considered sacred and is known as the Bodhi tree?",
+    "options": [
+      "Banyan",
+      "Ashoka",
+      "Peepal",
+      "Neem"
+    ],
+    "correctAnswer": "Peepal"
+  },
+  {
+    "id": 3,
+    "question": "Which plant's gel is commonly used for treating burns and skin conditions?",
+    "options": [
+      "Aloe Vera",
+      "Neem",
+      "Marigold",
+      "Lotus"
+    ],
+    "correctAnswer": "Aloe Vera"
+  },
+  {
+    "id": 4,
+    "question": "What is the national flower of India?",
+    "options": [
+      "Rose",
+      "Lotus",
+      "Marigold",
+      "Jasmine"
+    ],
+    "correctAnswer": "Lotus"
+  },
+  {
+    "id": 5,
+    "question": "Which of these is known as the 'King of Fruits' in India?",
+    "options": [
+      "Apple",
+      "Banana",
+      "Mango",
+      "Orange"
+    ],
+    "correctAnswer": "Mango"
+  },
+  {
+    "id": 6,
+    "question": "Which part of the Neem tree is primarily used for its medicinal properties?",
+    "options": [
+      "Flowers",
+      "Leaves",
+      "Roots",
+      "All parts"
+    ],
+    "correctAnswer": "All parts"
+  },
+  {
+    "id": 7,
+    "question": "Which plant is commonly used as a natural mosquito repellent?",
+    "options": [
+      "Tulsi",
+      "Neem",
+      "Jasmine",
+      "Marigold"
+    ],
+    "correctAnswer": "Neem"
+  },
+  {
+    "id": 8,
+    "question": "Which tree is known for having aerial roots that grow downward?",
+    "options": [
+      "Peepal",
+      "Ashoka",
+      "Banyan",
+      "Mango"
+    ],
+    "correctAnswer": "Banyan"
+  },
+  {
+    "id": 9,
+    "question": "In Hindu tradition, which flower is commonly offered to Lord Vishnu?",
+    "options": [
+      "Rose",
+      "Lotus",
+      "Marigold",
+      "Jasmine"
+    ],
+    "correctAnswer": "Lotus"
+  },
+  {
+    "id": 10,
+    "question": "Which of these plants is primarily known for improving women's health in Ayurveda?",
+    "options": [
+      "Tulsi",
+      "Ashoka",
+      "Aloe Vera",
+      "Jasmine"
+    ],
+    "correctAnswer": "Ashoka"
+  },
+  {
+    "id": 11,
+    "question": "Which flower is extensively used in making garlands for religious ceremonies in India?",
+    "options": [
+      "Lotus",
+      "Marigold",
+      "Rose",
+      "Jasmine"
+    ],
+    "correctAnswer": "Jasmine"
+  },
+  {
+    "id": 12,
+    "question": "What color are traditional marigold flowers?",
+    "options": [
+      "White",
+      "Purple",
+      "Yellow-Orange",
+      "Pink"
+    ],
+    "correctAnswer": "Yellow-Orange"
+  },
+  {
+    "id": 13,
+    "question": "Which plant is known for growing in muddy waters but remaining pristine and pure?",
+    "options": [
+      "Water Lily",
+      "Lotus",
+      "Tulsi",
+      "Jasmine"
+    ],
+    "correctAnswer": "Lotus"
+  },
+  {
+    "id": 14,
+    "question": "Which plant is considered sacred in both Hindu and Buddhist traditions?",
+    "options": [
+      "Neem",
+      "Mango",
+      "Peepal",
+      "Marigold"
+    ],
+    "correctAnswer": "Peepal"
+  },
+  {
+    "id": 15,
+    "question": "Which of these plants is a type of succulent?",
+    "options": [
+      "Tulsi",
+      "Neem",
+      "Aloe Vera",
+      "Ashoka"
+    ],
+    "correctAnswer": "Aloe Vera"
+  },
+  {
+    "id": 16,
+    "question": "Which plant is known for its air purifying properties and is often kept indoors?",
+    "options": [
+      "Tulsi",
+      "Ashoka",
+      "Peepal",
+      "Jasmine"
+    ],
+    "correctAnswer": "Tulsi"
+  },
+  {
+    "id": 17,
+    "question": "Which tree's leaves are used to feed silkworms?",
+    "options": [
+      "Neem",
+      "Mulberry",
+      "Banyan",
+      "Peepal"
+    ],
+    "correctAnswer": "Mulberry"
+  },
+  {
+    "id": 18,
+    "question": "Which Indian plant is known for its distinctive fragrance used in perfumery?",
+    "options": [
+      "Tulsi",
+      "Neem",
+      "Jasmine",
+      "Marigold"
+    ],
+    "correctAnswer": "Jasmine"
+  },
+  {
+    "id": 19,
+    "question": "Which tree is known as 'Kalpavriksha' meaning wish-fulfilling divine tree in Indian culture?",
+    "options": [
+      "Banyan",
+      "Coconut Tree",
+      "Peepal",
+      "Neem"
+    ],
+    "correctAnswer": "Coconut Tree"
+  },
+  {
+    "id": 20,
+    "question": "Which plant is often used to break fasts during religious ceremonies?",
+    "options": [
+      "Tulsi",
+      "Lotus",
+      "Neem",
+      "Marigold"
+    ],
+    "correctAnswer": "Tulsi"
+  },
+  {
+    "id": 21,
+    "question": "Which part of the Aloe Vera plant contains the healing gel?",
+    "options": [
+      "Roots",
+      "Flowers",
+      "Leaves",
+      "Stem"
+    ],
+    "correctAnswer": "Leaves"
+  },
+  {
+    "id": 22,
+    "question": "Which plant is used to make the cooling summer drink 'Rooh Afza'?",
+    "options": [
+      "Rose",
+      "Lotus",
+      "Jasmine",
+      "Tulsi"
+    ],
+    "correctAnswer": "Rose"
+  },
+  {
+    "id": 23,
+    "question": "Which Indian tree is known for its medicinal bark used to treat fevers?",
+    "options": [
+      "Neem",
+      "Cinchona",
+      "Ashoka",
+      "Peepal"
+    ],
+    "correctAnswer": "Cinchona"
+  },
+  {
+    "id": 24,
+    "question": "Which of these plants is known for its ability to survive in extremely dry conditions?",
+    "options": [
+      "Lotus",
+      "Cactus",
+      "Tulsi",
+      "Rose"
+    ],
+    "correctAnswer": "Cactus"
+  },
+  {
+    "id": 25,
+    "question": "Which Indian plant is used to make the Ayurvedic medicine 'triphala'?",
+    "options": [
+      "Amla",
+      "Neem",
+      "Tulsi",
+      "Aloe Vera"
+    ],
+    "correctAnswer": "Amla"
+  },
+  {
+    "id": 26,
+    "question": "Which of these is a medicinal plant used in Ayurveda for improving memory?",
+    "options": [
+      "Brahmi",
+      "Tulsi",
+      "Neem",
+      "Ashoka"
+    ],
+    "correctAnswer": "Brahmi"
+  },
+  {
+    "id": 27,
+    "question": "What plant is most commonly used to make henna (mehndi) for body art?",
+    "options": [
+      "Jasmine",
+      "Lawsonia inermis",
+      "Marigold",
+      "Tulsi"
+    ],
+    "correctAnswer": "Lawsonia inermis"
+  },
+  {
+    "id": 28,
+    "question": "Which plant is known as 'Indian ginseng' in Ayurvedic medicine?",
+    "options": [
+      "Ashwagandha",
+      "Brahmi",
+      "Tulsi",
+      "Amla"
+    ],
+    "correctAnswer": "Ashwagandha"
+  },
+  {
+    "id": 29,
+    "question": "Which tree is a symbol of love and fertility in Indian culture?",
+    "options": [
+      "Ashoka",
+      "Neem",
+      "Peepal",
+      "Mango"
+    ],
+    "correctAnswer": "Ashoka"
+  },
+  {
+    "id": 30,
+    "question": "Which plant's seeds are used to make mustard oil, common in Indian cooking?",
+    "options": [
+      "Coriander",
+      "Mustard",
+      "Fenugreek",
+      "Cumin"
+    ],
+    "correctAnswer": "Mustard"
+  },
+  {
+    "id": 31,
+    "question": "Which plant is the primary source of natural blue dye in India?",
+    "options": [
+      "Indigo",
+      "Marigold",
+      "Henna",
+      "Tulsi"
+    ],
+    "correctAnswer": "Indigo"
+  },
+  {
+    "id": 32,
+    "question": "Which Indian plant is known as 'Sarpagandha' and is used to treat high blood pressure?",
+    "options": [
+      "Rauwolfia serpentina",
+      "Tulsi",
+      "Neem",
+      "Brahmi"
+    ],
+    "correctAnswer": "Rauwolfia serpentina"
+  },
+  {
+    "id": 33,
+    "question": "What plant is traditionally grown around the perimeter of temples in India?",
+    "options": [
+      "Tulsi",
+      "Neem",
+      "Jasmine",
+      "Marigold"
+    ],
+    "correctAnswer": "Tulsi"
+  },
+  {
+    "id": 34,
+    "question": "Which Indian tree is known for its heart-shaped leaves?",
+    "options": [
+      "Peepal",
+      "Banyan",
+      "Neem",
+      "Ashoka"
+    ],
+    "correctAnswer": "Peepal"
+  },
+  {
+    "id": 35,
+    "question": "Which of these plants is used to make the cooling summer drink 'Sharbat'?",
+    "options": [
+      "Rose",
+      "Khus (Vetiver)",
+      "Tulsi",
+      "Jasmine"
+    ],
+    "correctAnswer": "Khus (Vetiver)"
+  },
+  {
+    "id": 36,
+    "question": "Which plant is known for its triangular seeds called 'tukmaria' used in drinks?",
+    "options": [
+      "Chia",
+      "Sweet Basil",
+      "Flax",
+      "Lotus"
+    ],
+    "correctAnswer": "Sweet Basil"
+  },
+  {
+    "id": 37,
+    "question": "Which plant yields the yellow spice turmeric?",
+    "options": [
+      "Saffron Crocus",
+      "Turmeric Plant",
+      "Marigold",
+      "Neem"
+    ],
+    "correctAnswer": "Turmeric Plant"
+  },
+  {
+    "id": 38,
+    "question": "Which plant is known as 'Sarpagandha' in Ayurveda?",
+    "options": [
+      "Tulsi",
+      "Rauwolfia",
+      "Ashoka",
+      "Neem"
+    ],
+    "correctAnswer": "Rauwolfia"
+  },
+  {
+    "id": 39,
+    "question": "Which flower is known for changing colors as it matures?",
+    "options": [
+      "Rose",
+      "Hibiscus",
+      "Lantana",
+      "Marigold"
+    ],
+    "correctAnswer": "Lantana"
+  },
+  {
+    "id": 40,
+    "question": "Which tree's resin is used as incense in religious ceremonies?",
+    "options": [
+      "Neem",
+      "Sal",
+      "Banyan",
+      "Peepal"
+    ],
+    "correctAnswer": "Sal"
+  },
+  {
+    "id": 41,
+    "question": "Which tree is known as the 'Flame of the Forest'?",
+    "options": [
+      "Gulmohar",
+      "Ashoka",
+      "Neem",
+      "Banyan"
+    ],
+    "correctAnswer": "Gulmohar"
+  },
+  {
+    "id": 42,
+    "question": "Which plant is used in the traditional Indian game of 'Pallanguzhi'?",
+    "options": [
+      "Neem",
+      "Tamarind",
+      "Mango",
+      "Lotus"
+    ],
+    "correctAnswer": "Tamarind"
+  },
+  {
+    "id": 43,
+    "question": "Which plant is traditionally planted during house warming ceremonies in India?",
+    "options": [
+      "Tulsi",
+      "Neem",
+      "Banyan",
+      "Marigold"
+    ],
+    "correctAnswer": "Tulsi"
+  },
+  {
+    "id": 44,
+    "question": "Which tree's fruit is known as 'Jamun' in Hindi?",
+    "options": [
+      "Indian Blackberry",
+      "Mango",
+      "Tamarind",
+      "Gooseberry"
+    ],
+    "correctAnswer": "Indian Blackberry"
+  },
+  {
+    "id": 45,
+    "question": "Which plant is the source of the fabric jute?",
+    "options": [
+      "Cotton",
+      "Jute Plant",
+      "Flax",
+      "Hemp"
+    ],
+    "correctAnswer": "Jute Plant"
+  },
+  {
+    "id": 46,
+    "question": "Which Indian plant is known for its use in hair oils?",
+    "options": [
+      "Amla",
+      "Hibiscus",
+      "Jasmine",
+      "All of these"
+    ],
+    "correctAnswer": "All of these"
+  },
+  {
+    "id": 47,
+    "question": "Which tree is known for having white, fragrant flowers that bloom at night?",
+    "options": [
+      "Parijat (Night Jasmine)",
+      "Gulmohar",
+      "Neem",
+      "Ashoka"
+    ],
+    "correctAnswer": "Parijat (Night Jasmine)"
+  },
+  {
+    "id": 48,
+    "question": "Which plant's seeds are used to make mustard oil?",
+    "options": [
+      "Sunflower",
+      "Mustard",
+      "Sesame",
+      "Coconut"
+    ],
+    "correctAnswer": "Mustard"
+  },
+  {
+    "id": 49,
+    "question": "Which flower is often referred to as 'Butterfly Pea'?",
+    "options": [
+      "Aparajita",
+      "Lotus",
+      "Rose",
+      "Hibiscus"
+    ],
+    "correctAnswer": "Aparajita"
+  },
+  {
+    "id": 50,
+    "question": "Which plant is called 'The Wonder Tree' due to its numerous uses?",
+    "options": [
+      "Neem",
+      "Moringa",
+      "Banyan",
+      "Coconut"
+    ],
+    "correctAnswer": "Moringa"
+  },
+  {
+    "id": 51,
+    "question": "Which tree's leaves are used for making 'dona' (leaf plates) in India?",
+    "options": [
+      "Banyan",
+      "Sal",
+      "Neem",
+      "Mango"
+    ],
+    "correctAnswer": "Sal"
+  },
+  {
+    "id": 52,
+    "question": "Which flower is known as 'Kaner' in Hindi?",
+    "options": [
+      "Rose",
+      "Oleander",
+      "Jasmine",
+      "Marigold"
+    ],
+    "correctAnswer": "Oleander"
+  },
+  {
+    "id": 53,
+    "question": "Which plant is traditionally grown near Hindu temples?",
+    "options": [
+      "Tulsi",
+      "Peepal",
+      "Both A and B",
+      "None of these"
+    ],
+    "correctAnswer": "Both A and B"
+  },
+  {
+    "id": 54,
+    "question": "Which plant produces the most expensive spice in the world?",
+    "options": [
+      "Cardamom",
+      "Saffron Crocus",
+      "Vanilla Orchid",
+      "Black Pepper"
+    ],
+    "correctAnswer": "Saffron Crocus"
+  },
+  {
+    "id": 55,
+    "question": "Which plant's flowers are used to make gulkand (sweet preserve)?",
+    "options": [
+      "Jasmine",
+      "Rose",
+      "Marigold",
+      "Lotus"
+    ],
+    "correctAnswer": "Rose"
+  }
+] 

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3b43c49.css",
+    "main.js": "/static/js/main.55a00eaf.js",
+    "static/js/453.2451cdf1.chunk.js": "/static/js/453.2451cdf1.chunk.js",
+    "index.html": "/index.html",
+    "static/media/nature-explorer-logo.svg": "/static/media/nature-explorer-logo.89514a782073722bb58c0706352fda6d.svg",
+    "main.e3b43c49.css.map": "/static/css/main.e3b43c49.css.map",
+    "main.55a00eaf.js.map": "/static/js/main.55a00eaf.js.map",
+    "453.2451cdf1.chunk.js.map": "/static/js/453.2451cdf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b43c49.css",
+    "static/js/main.55a00eaf.js"
+  ]
+}

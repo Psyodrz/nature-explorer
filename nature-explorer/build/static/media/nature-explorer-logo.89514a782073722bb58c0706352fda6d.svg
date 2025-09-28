@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="90" fill="#4CAF50" opacity="0.2" />
+  
+  <!-- Leaf Shape -->
+  <path d="M150,70 C120,40 80,60 80,100 C80,140 120,160 150,130 C160,120 160,80 150,70 Z" fill="#4CAF50" />
+  
+  <!-- Leaf Vein -->
+  <path d="M145,75 C120,50 85,70 85,100 C85,130 120,150 145,125" stroke="#ffffff" stroke-width="3" fill="none" />
+  
+  <!-- Stem -->
+  <path d="M80,100 L50,130" stroke="#4CAF50" stroke-width="4" />
+  
+  <!-- Small Leaves -->
+  <path d="M60,120 C55,115 50,118 50,125 C50,132 55,135 60,130 Z" fill="#66BB6A" />
+  <path d="M65,110 C60,105 55,108 55,115 C55,122 60,125 65,120 Z" fill="#66BB6A" />
+  
+  <!-- Text (if needed) -->
+  <text x="85" y="170" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2E7D32">
+    NATURE EXPLORER
+  </text>
+</svg>
