@@ -36,6 +36,39 @@
   --radius-md: 8px;
   --radius-lg: 16px;
   --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-theme: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+  --color-earth: #c4b896;
+  --color-forest: #6ee7b7;
+  --color-moss: #4ade80;
+  --color-sand: #374151;
+  --color-bark: #d4a574;
+  --color-leaf: #34d399;
+  --color-stone: #9ca3af;
+  --color-cloud: #111827;
+  
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #e2e8f0;
+  --text-secondary: #6ee7b7;
+  --accent-primary: #34d399;
+  --accent-secondary: #4ade80;
+  
+  --glass-bg: rgba(30, 41, 59, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Light theme glass variables */
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Base Styles */

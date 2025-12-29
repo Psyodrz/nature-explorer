@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import { 
+  ArrowLeft, TreeDeciduous, Flower2, Pill, Leaf, Sprout,
+  Globe, MapPin, Sparkles
+} from 'lucide-react';
 import plantsData from '../data/plants.json';
 import '../styles/nature-theme.css';
 
 type PlantParams = {
   id: string;
-};
-
-type Use = {
-  type: string;
-  description: {
-    english: string;
-    hindi: string;
-  };
 };
 
 type Plant = {
@@ -39,53 +35,32 @@ const PlantDetail: React.FC = () => {
   const [loading, setLoading] = useState(true);
   
   useEffect(() => {
-    // Find the plant by ID
     const plantById = plantsData.find((p) => p.id === Number(id));
-    
     if (plantById) {
-      // Cast the plant data to ensure it has all required properties
       setPlant(plantById as Plant);
     }
     setLoading(false);
   }, [id]);
   
-  // Helper function to determine plant icon
-  const getPlantIcon = (type: string) => {
+  // Helper function to get plant icon
+  const getPlantIcon = (type: string, size: number = 20) => {
+    const iconProps = { size, className: "flex-shrink-0" };
     switch(type) {
-      case 'Tree': return '🌳';
-      case 'Medicinal': return '🌿';
-      case 'Flower': return '🌸';
-      default: return '🌱';
+      case 'Tree': return <TreeDeciduous {...iconProps} />;
+      case 'Medicinal': return <Pill {...iconProps} />;
+      case 'Flower': return <Flower2 {...iconProps} />;
+      case 'Sacred': return <Sparkles {...iconProps} />;
+      default: return <Sprout {...iconProps} />;
     }
-  };
-  
-  const toggleLanguage = () => {
-    setLanguage(language === 'english' ? 'hindi' : 'english');
-  };
-
-  // Translation function (simplified)
-  const t = (key: string) => {
-    const translations: {[key: string]: string} = {
-      'back': 'Back',
-      'type': 'Type',
-      'native': 'Native Region',
-      'grows': 'Habitat',
-      'uses': 'Uses & Benefits',
-      'cultivation': 'Cultivation Tips',
-      'water': 'Water Needs',
-      'sunlight': 'Sunlight',
-      'climate': 'Climate',
-      'not_found': 'Plant Not Found',
-      'not_found_desc': 'We couldn\'t find the plant you\'re looking for.',
-      'explore': 'Explore Other Plants'
-    };
-    return translations[key] || key;
   };
   
   if (loading) {
     return (
       <div className="container mx-auto px-4 py-8 text-center">
-        <div className="loader"></div>
+        <div className="flex items-center justify-center gap-2">
+          <Leaf className="animate-spin text-emerald-500" size={32} />
+          <span className="text-earth-dark dark:text-gray-300">Loading...</span>
+        </div>
       </div>
     );
   }
@@ -93,12 +68,14 @@ const PlantDetail: React.FC = () => {
   if (!plant) {
     return (
       <div className="container mx-auto px-4 py-8 text-center">
-        <div className="leaf-border p-8">
-          <p className="text-forest-dark font-body mb-6">Plant not found.</p>
+        <div className="nature-card glass-card p-8 rounded-xl">
+          <Leaf className="mx-auto text-gray-400 mb-4" size={48} />
+          <p className="text-forest-dark dark:text-gray-300 font-body mb-6">Plant not found.</p>
           <button 
             onClick={() => navigate('/')}
-            className="nature-button"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-white rounded-xl font-medium hover:bg-emerald-600 transition-all"
           >
+            <ArrowLeft size={18} />
             Back to Home
           </button>
         </div>
@@ -108,30 +85,31 @@ const PlantDetail: React.FC = () => {
   
   return (
     <div className="container mx-auto px-4 pt-4 pb-20">
-      <div className="leaf-border p-0 pb-0 overflow-hidden">
+      <div className="nature-card glass-card p-0 pb-0 overflow-hidden rounded-xl">
         {/* Back Button */}
         <div className="absolute top-4 left-4 z-20">
           <button 
             onClick={() => navigate('/')}
-            className="flex items-center justify-center bg-white/80 backdrop-blur-sm text-primary font-body p-2 rounded-full shadow-md hover:bg-white transition-all"
+            className="flex items-center justify-center bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm text-primary p-3 rounded-full shadow-lg hover:bg-white dark:hover:bg-slate-700 transition-all"
           >
-            <span>←</span>
+            <ArrowLeft size={20} />
           </button>
         </div>
         
         {/* Plant Image */}
         <div className="w-full h-64 md:h-80 overflow-hidden relative">
-          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 z-10"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60 z-10"></div>
           <img 
             src={plant.image} 
             alt={plant.name} 
             className="w-full h-full object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 p-6 z-20">
-            <span className="px-3 py-1 bg-leaf-dark text-white rounded-full text-sm font-body inline-flex items-center shadow-md">
-              {getPlantIcon(plant.type)} <span className="ml-1">{plant.type}</span>
+            <span className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-600/90 backdrop-blur-sm text-white rounded-full text-sm font-medium shadow-lg">
+              {getPlantIcon(plant.type, 16)}
+              <span>{plant.type}</span>
             </span>
-            <h1 className="text-3xl font-heading text-white mt-2 drop-shadow-md">{plant.name}</h1>
+            <h1 className="text-3xl font-heading text-white mt-3 drop-shadow-lg">{plant.name}</h1>
             <p className="text-sm italic font-serif text-white/90 drop-shadow-md">{plant.scientificName}</p>
           </div>
         </div>
@@ -141,20 +119,20 @@ const PlantDetail: React.FC = () => {
           {/* Language Switcher */}
           <div className="flex gap-3 mb-6">
             <button
-              className={`px-4 py-2 text-sm border rounded-full font-body transition-colors ${
+              className={`flex-1 px-4 py-3 text-sm border rounded-xl font-medium transition-all ${
                 language === 'english' 
-                  ? 'bg-primary text-white border-primary' 
-                  : 'bg-white text-earth-dark border-earth-light hover:bg-leaf-light/20'
+                  ? 'bg-emerald-500 text-white border-emerald-500 shadow-lg' 
+                  : 'bg-white/50 dark:bg-slate-800/50 text-earth-dark dark:text-gray-300 border-emerald-200 dark:border-slate-600 hover:bg-emerald-50 dark:hover:bg-slate-700'
               }`}
               onClick={() => setLanguage('english')}
             >
               English
             </button>
             <button
-              className={`px-4 py-2 text-sm border rounded-full font-body transition-colors ${
+              className={`flex-1 px-4 py-3 text-sm border rounded-xl font-medium transition-all ${
                 language === 'hindi' 
-                  ? 'bg-primary text-white border-primary' 
-                  : 'bg-white text-earth-dark border-earth-light hover:bg-leaf-light/20'
+                  ? 'bg-emerald-500 text-white border-emerald-500 shadow-lg' 
+                  : 'bg-white/50 dark:bg-slate-800/50 text-earth-dark dark:text-gray-300 border-emerald-200 dark:border-slate-600 hover:bg-emerald-50 dark:hover:bg-slate-700'
               }`}
               onClick={() => setLanguage('hindi')}
             >
@@ -162,29 +140,61 @@ const PlantDetail: React.FC = () => {
             </button>
           </div>
           
+          {/* Quick Info */}
+          {(plant.nativeRegion || plant.habitat) && (
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              {plant.nativeRegion && (
+                <div className="p-4 rounded-xl bg-blue-50/50 dark:bg-blue-900/20">
+                  <div className="flex items-center gap-2 text-blue-600 dark:text-blue-400 mb-1">
+                    <Globe size={16} />
+                    <span className="text-xs font-medium uppercase">Native Region</span>
+                  </div>
+                  <p className="text-sm text-earth-dark dark:text-gray-300">{plant.nativeRegion}</p>
+                </div>
+              )}
+              {plant.habitat && (
+                <div className="p-4 rounded-xl bg-amber-50/50 dark:bg-amber-900/20">
+                  <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 mb-1">
+                    <MapPin size={16} />
+                    <span className="text-xs font-medium uppercase">Habitat</span>
+                  </div>
+                  <p className="text-sm text-earth-dark dark:text-gray-300">{plant.habitat}</p>
+                </div>
+              )}
+            </div>
+          )}
+          
           {/* Description */}
-          <div className="mb-6 leaf-side-border px-4 pt-4 pb-1 rounded-lg bg-leaf-light/10 border border-leaf-light/30">
-            <h2 className="text-2xl font-heading text-forest-dark mb-3">Description</h2>
-            <p className="font-body text-earth-dark leading-relaxed">
+          <div className="mb-6 p-5 rounded-xl bg-emerald-50/50 dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-800/30">
+            <h2 className="text-xl font-heading text-forest-dark dark:text-emerald-300 mb-3 flex items-center gap-2">
+              <Leaf className="text-emerald-500" size={22} />
+              Description
+            </h2>
+            <p className="font-body text-earth-dark dark:text-gray-300 leading-relaxed">
               {plant.description[language]}
             </p>
           </div>
           
           {/* Uses */}
-          <div className="leaf-corner p-6 bg-white">
-            <h2 className="text-2xl font-heading text-forest-dark mb-3">Uses</h2>
+          <div className="p-5 rounded-xl bg-white/50 dark:bg-slate-800/50">
+            <h2 className="text-xl font-heading text-forest-dark dark:text-emerald-300 mb-4 flex items-center gap-2">
+              <Sparkles className="text-amber-500" size={22} />
+              Uses & Benefits
+            </h2>
             <ul className="space-y-3">
               {plant.uses.map((use, index) => (
-                <li key={index} className="flex items-start bg-leaf-light/10 p-3 rounded-lg border border-leaf-light/20">
-                  <span className="mr-3 text-xl text-forest">{getPlantIcon(plant.type)}</span>
-                  <span className="font-body text-earth-dark">{use}</span>
+                <li key={index} className="flex items-start p-3 rounded-lg bg-emerald-50/50 dark:bg-emerald-900/20 border border-emerald-100/50 dark:border-emerald-800/20">
+                  <span className="mr-3 mt-0.5 text-emerald-500">
+                    {getPlantIcon(plant.type, 18)}
+                  </span>
+                  <span className="font-body text-earth-dark dark:text-gray-300">{use}</span>
                 </li>
               ))}
             </ul>
           </div>
           
           {/* Quote */}
-          <div className="mt-6 italic text-center font-serif text-forest-dark text-sm px-6 py-4 border-t border-leaf-light/30">
+          <div className="mt-6 italic text-center font-serif text-forest-dark dark:text-gray-400 text-sm px-6 py-4 border-t border-emerald-100 dark:border-slate-700">
             "In nature's economy the currency is not money, it is life." — Vandana Shiva
           </div>
         </div>
@@ -193,4 +203,4 @@ const PlantDetail: React.FC = () => {
   );
 };
 
-export default PlantDetail; 
+export default PlantDetail;

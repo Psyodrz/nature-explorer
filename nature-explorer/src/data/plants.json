@@ -178,5 +178,105 @@
       "Hair decoration",
       "Religious offerings"
     ]
+  },
+  {
+    "id": 11,
+    "name": "Coconut Palm",
+    "scientificName": "Cocos nucifera",
+    "type": "Tree",
+    "image": "/assets/coconut.jpg",
+    "nativeRegion": "Tropical coastal regions",
+    "habitat": "Coastal areas throughout India",
+    "shortDescription": "The tree of life with countless uses.",
+    "description": {
+      "english": "The Coconut Palm is often called the 'Tree of Life' because every part of the tree can be used. It's essential to coastal communities and provides food, shelter, and livelihood.",
+      "hindi": "नारियल का पेड़ अक्सर 'जीवन का वृक्ष' कहलाता है क्योंकि इस पेड़ के हर हिस्से का उपयोग किया जा सकता है। यह तटीय समुदायों के लिए आवश्यक है और भोजन, आश्रय और आजीविका प्रदान करता है।"
+    },
+    "uses": [
+      "Coconut water and milk",
+      "Cooking oil extraction",
+      "Coir fiber production",
+      "Religious ceremonies"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Tamarind",
+    "scientificName": "Tamarindus indica",
+    "type": "Tree",
+    "image": "/assets/tamarind.jpg",
+    "nativeRegion": "Tropical Africa, naturalized in India",
+    "habitat": "Grows well in dry tropical regions",
+    "shortDescription": "Sweet and sour fruit used in cooking.",
+    "description": {
+      "english": "Tamarind is a leguminous tree producing edible fruit pods with a tangy, sweet-sour flavor. The fruit pulp is widely used in Indian cuisine, especially in South Indian dishes.",
+      "hindi": "इमली एक फलीदार वृक्ष है जो खाने योग्य फली का उत्पादन करता है जिसका स्वाद तीखा और खट्टा-मीठा होता है। फल का गूदा भारतीय व्यंजनों में, विशेष रूप से दक्षिण भारतीय व्यंजनों में व्यापक रूप से उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Flavoring in curries and chutneys",
+      "Traditional medicine",
+      "Wood for furniture",
+      "Metal polish"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Curry Leaf",
+    "scientificName": "Murraya koenigii",
+    "type": "Medicinal",
+    "image": "/assets/curry-leaf.jpg",
+    "nativeRegion": "Indian subcontinent",
+    "habitat": "Tropical and subtropical regions",
+    "shortDescription": "Aromatic leaves essential in Indian cooking.",
+    "description": {
+      "english": "Curry Leaf tree produces aromatic leaves that are a staple in South Indian cuisine. The leaves add a distinctive flavor and have numerous health benefits including aiding digestion.",
+      "hindi": "करी पत्ता का पेड़ सुगंधित पत्तियों का उत्पादन करता है जो दक्षिण भारतीय व्यंजनों में मुख्य हैं। इन पत्तियों का विशिष्ट स्वाद होता है और पाचन में सहायता सहित कई स्वास्थ्य लाभ हैं।"
+    },
+    "uses": [
+      "Culinary flavoring",
+      "Hair growth treatment",
+      "Diabetes management",
+      "Antioxidant properties"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Hibiscus",
+    "scientificName": "Hibiscus rosa-sinensis",
+    "type": "Flower",
+    "image": "/assets/hibiscus.jpg",
+    "nativeRegion": "East Asia",
+    "habitat": "Tropical and subtropical gardens",
+    "shortDescription": "Vibrant flower with beauty and health benefits.",
+    "description": {
+      "english": "Hibiscus is a beautiful flowering plant known for its large, colorful blooms. In India, it's used in religious offerings and traditional medicine, especially for hair care.",
+      "hindi": "गुड़हल एक सुंदर फूलदार पौधा है जो अपने बड़े, रंगीन फूलों के लिए जाना जाता है। भारत में इसका धार्मिक अर्पण और पारंपरिक चिकित्सा में, विशेष रूप से बालों की देखभाल के लिए उपयोग किया जाता है।"
+    },
+    "uses": [
+      "Hair care products",
+      "Herbal tea",
+      "Religious offerings",
+      "Blood pressure management"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Amla",
+    "scientificName": "Phyllanthus emblica",
+    "type": "Medicinal",
+    "image": "/assets/amla.jpg",
+    "nativeRegion": "Indian subcontinent",
+    "habitat": "Deciduous forests and cultivated orchards",
+    "shortDescription": "Indian gooseberry rich in Vitamin C.",
+    "description": {
+      "english": "Amla or Indian Gooseberry is one of the most important plants in Ayurveda. It contains the highest concentration of Vitamin C among fruits and is used in numerous traditional remedies.",
+      "hindi": "आंवला या भारतीय करौंदा आयुर्वेद में सबसे महत्वपूर्ण पौधों में से एक है। इसमें फलों में विटामिन सी की सर्वाधिक मात्रा होती है और इसका उपयोग कई पारंपरिक उपचारों में किया जाता है।"
+    },
+    "uses": [
+      "Immunity booster",
+      "Hair health (in Amla oil)",
+      "Digestive health",
+      "Anti-aging properties"
+    ]
   }
 ] 
